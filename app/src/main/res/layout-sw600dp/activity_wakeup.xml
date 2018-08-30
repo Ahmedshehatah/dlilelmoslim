@@ -29,7 +29,7 @@
                 android:layout_marginBottom="4dp"
                 android:gravity="center"
                 android:paddingBottom="10dp"
-                android:text="الحَمْـدُ لِلّهِ الّذي أَحْـيانا بَعْـدَ ما أَماتَـنا وَإليه النُّـشور. "
+                android:text="@string/alhmdllah"
                 android:textColor="#000"
                 android:textSize="@dimen/dima" />
 
@@ -72,7 +72,7 @@
                 android:layout_marginBottom="4dp"
                 android:gravity="center"
                 android:paddingBottom="10dp"
-                android:text="الحمدُ للهِ الذي عافاني في جَسَدي وَرَدّ عَليّ روحي وَأَذِنَ لي بِذِكْرِه.  "
+                android:text="@string/alhmdllahalthy"
                 android:textColor="#000"
                 android:textSize="@dimen/xlarg" />
 
@@ -115,7 +115,7 @@
                 android:layout_marginBottom="4dp"
                 android:gravity="center"
                 android:paddingBottom="10dp"
-                android:text="لا إلهَ إلاّ اللّهُ وَحْـدَهُ لا شَـريكَ له، لهُ المُلـكُ ولهُ الحَمـد، وهوَ على كلّ شيءٍ قدير، سُـبْحانَ اللهِ، والحمْـدُ لله ، ولا إلهَ إلاّ اللهُ واللهُ أكبَر، وَلا حَولَ وَلا قوّة إلاّ باللّهِ العليّ العظيم. رَبِّ اغْفرْ لي. "
+                android:text="@string/laelahelaallh"
                 android:textColor="#000"
                 android:textSize="@dimen/xlarg" />
 

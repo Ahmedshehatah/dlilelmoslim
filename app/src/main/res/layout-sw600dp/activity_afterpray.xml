@@ -2,16 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/back1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    android:id="@+id/back1"
     android:orientation="vertical"
     android:paddingBottom="50dp"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
     android:paddingTop="30dp"
-    tools:context="com.example.ahmed.dlilelmoslim.afterpray">
+    tools:context=".afterpray">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/txtastgfer"
+                android:id="@+id/txt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="4dp"
@@ -33,7 +33,7 @@
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:text="أسْتَغْفِرُ اللهَ وَأتُوبُ إلَيْهِ   "
-                android:textColor="#000"
+                android:textColor="@color/txt"
                 android:textSize="@dimen/xlarg" />
 
             <LinearLayout
@@ -50,9 +50,10 @@
                     android:layout_weight="2"
                     android:background="@drawable/bg1_style"
                     android:gravity="right"
+                    android:paddingRight="2dp"
                     android:text="1"
-                    android:textSize="@dimen/xlarg"
-                    android:textColor="#fff" />
+                    android:textColor="#fff"
+                    android:textSize="@dimen/xlarg" />
 
                 <TextView
                     android:id="@+id/txtreapetastgfer"
@@ -68,7 +69,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/txtsobhanallah"
+                android:id="@+id/txt1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="4dp"
@@ -78,7 +79,7 @@
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:text="سُبْحـانَ اللهِ وَبِحَمْـدِهِ.  "
-                android:textColor="#000"
+                android:textColor="@color/txt"
                 android:textSize="@dimen/xlarg" />
 
             <LinearLayout
@@ -95,8 +96,10 @@
                     android:layout_weight="2"
                     android:background="@drawable/bg1_style"
                     android:gravity="right"
+                    android:paddingRight="2dp"
                     android:text="1"
-                    android:textColor="#fff" android:textSize="@dimen/xlarg"/>
+                    android:textColor="#fff"
+                    android:textSize="@dimen/xlarg" />
 
                 <TextView
                     android:id="@+id/txtreapetsobhanallah"
@@ -112,7 +115,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/txtalhmsly"
+                android:id="@+id/txt2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="4dp"
@@ -122,7 +125,7 @@
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:text="اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ على نَبِيِّنَا مُحمَّد. "
-                android:textColor="#000"
+                android:textColor="@color/txt"
                 android:textSize="@dimen/xlarg" />
 
             <LinearLayout
@@ -139,8 +142,10 @@
                     android:layout_weight="2"
                     android:background="@drawable/bg1_style"
                     android:gravity="right"
+                    android:paddingRight="2dp"
                     android:text="1"
-                    android:textColor="#fff" android:textSize="@dimen/xlarg"/>
+                    android:textColor="#fff"
+                    android:textSize="@dimen/xlarg" />
 
                 <TextView
                     android:id="@+id/txtreapetalhmsly"
@@ -156,7 +161,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/txtaoth"
+                android:id="@+id/txt3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="4dp"
@@ -166,7 +171,7 @@
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:text="أَعـوذُ بِكَلِمـاتِ اللّهِ التّـامّـاتِ مِنْ شَـرِّ ما خَلَـق. "
-                android:textColor="#000"
+                android:textColor="@color/txt"
                 android:textSize="@dimen/xlarg" />
 
             <LinearLayout
@@ -183,8 +188,10 @@
                     android:layout_weight="2"
                     android:background="@drawable/bg1_style"
                     android:gravity="right"
+                    android:paddingRight="2dp"
                     android:text="33"
-                    android:textColor="#fff" android:textSize="@dimen/xlarg"/>
+                    android:textColor="#fff"
+                    android:textSize="@dimen/xlarg" />
 
                 <TextView
                     android:id="@+id/txtreapetaoth"
@@ -200,7 +207,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/txtalhmalm"
+                android:id="@+id/txt4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="4dp"
@@ -209,9 +216,25 @@
                 android:paddingBottom="10dp"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
-                android:text="اللّهُـمَّ عالِـمَ الغَـيْبِ وَالشّـهادَةِ فاطِـرَ السّماواتِ وَالأرْضِ رَبَّ كـلِّ شَـيءٍ وَمَليـكَه ، أَشْهَـدُ أَنْ لا إِلـهَ إِلاّ أَنْت ، أَعـوذُ بِكَ مِن شَـرِّ نَفْسـي وَمِن شَـرِّ الشَّيْـطانِ وَشِرْكِهِ ، وَأَنْ أَقْتَـرِفَ عَلـى نَفْسـي سوءاً أَوْ أَجُـرَّهُ إِلـى مُسْـلِم."
-                android:textColor="#000"
+                android:text=""
+                android:textColor="@color/txt"
                 android:textSize="@dimen/xlarg" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingBottom="4dp"
+                    android:text="عشر مرات بعد صلاتي الفجر والمغرب" />
+
+            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/t"
@@ -227,8 +250,10 @@
                     android:layout_weight="2"
                     android:background="@drawable/bg1_style"
                     android:gravity="right"
+                    android:paddingRight="2dp"
                     android:text="10"
-                    android:textColor="#fff" android:textSize="@dimen/xlarg" />
+                    android:textColor="#fff"
+                    android:textSize="@dimen/xlarg" />
 
                 <TextView
                     android:id="@+id/txtreapetalhmalm"
@@ -244,7 +269,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/txtyahy"
+                android:id="@+id/txt5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="4dp"
@@ -254,8 +279,33 @@
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:text="يَا حَيُّ يَا قيُّومُ بِرَحْمَتِكَ أسْتَغِيثُ أصْلِحْ لِي شَأنِي كُلَّهُ وَلاَ تَكِلْنِي إلَى نَفْسِي طَـرْفَةَ عَيْنٍ."
-                android:textColor="#000"
-                android:textSize="@dimen/xlarg"/>
+                android:textColor="@color/txt"
+                android:textSize="@dimen/xlarg" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/other"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingBottom="4dp"
+                    android:text="مرة بعد الصلوات الأخرى" />
+
+                <TextView
+                    android:id="@+id/magrb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingBottom="4dp"
+                    android:text="ثلاث مرات بعد صلاتي الفجر والمغرب" />
+
+            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/s"
@@ -271,8 +321,10 @@
                     android:layout_weight="2"
                     android:background="@drawable/bg1_style"
                     android:gravity="right"
+                    android:paddingRight="2dp"
                     android:text="3"
-                    android:textColor="#fff" android:textSize="@dimen/xlarg"/>
+                    android:textColor="#fff"
+                    android:textSize="@dimen/xlarg" />
 
                 <TextView
                     android:id="@+id/txtreapetyahy"
@@ -288,7 +340,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/txtalhmanyasalk"
+                android:id="@+id/txt6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="4dp"
@@ -297,8 +349,8 @@
                 android:paddingBottom="10dp"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
-                android:text="اللّهُـمَّ إِنِّـي أسْـأَلُـكَ العَـفْوَ وَالعـافِـيةَ في الدُّنْـيا وَالآخِـرَة ، اللّهُـمَّ إِنِّـي أسْـأَلُـكَ العَـفْوَ وَالعـافِـيةَ في ديني وَدُنْـيايَ وَأهْـلي وَمالـي ، اللّهُـمَّ اسْتُـرْ عـوْراتي وَآمِـنْ رَوْعاتـي ، اللّهُـمَّ احْفَظْـني مِن بَـينِ يَدَيَّ وَمِن خَلْفـي وَعَن يَمـيني وَعَن شِمـالي ، وَمِن فَوْقـي ، وَأَعـوذُ بِعَظَمَـتِكَ أَن أُغْـتالَ مِن تَحْتـي."
-                android:textColor="#000"
+                android:text="@string/chare"
+                android:textColor="@color/txt"
                 android:textSize="@dimen/xlarg" />
 
             <LinearLayout
@@ -315,8 +367,10 @@
                     android:layout_weight="2"
                     android:background="@drawable/bg1_style"
                     android:gravity="right"
+                    android:paddingRight="2dp"
                     android:text="1"
-                    android:textColor="#fff" android:textSize="@dimen/xlarg"/>
+                    android:textColor="#fff"
+                    android:textSize="@dimen/xlarg" />
 
                 <TextView
                     android:id="@+id/txtreapetalhmanyasalk"
@@ -330,6 +384,13 @@
                     android:textColor="#fff"
                     android:textSize="@dimen/xlarg" />
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23"
+                android:visibility="invisible" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
