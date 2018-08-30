@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/background"
+    android:background="#efefef"
     tools:context=".About">
 
     <ImageView
@@ -19,19 +19,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="دليل المسلم \n \n هو تطبيق اسلامي وصدقة جاريه \n برجاء مساعدتنا فى نشر التطبيق "
+        android:text="دليل المسلم \n \n هو تطبيق اسلامي وصدقة جاريه لمن ساهم في نشر التطبيق \n ولمن أراد دعم البرنامج مادياً فليتوصل معنا على الجهات الاتية"
         android:textColor="@android:color/black"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"
+        />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:gravity="center"
-        android:text="مطورو التطبيق"
-        android:textColor="@android:color/black"
-        android:textSize="24dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -45,7 +38,7 @@
             android:layout_margin="4dp"
             android:layout_weight="1"
             android:gravity="center|top"
-            android:text="اسلام فيصل\n \n  FB/eslamfaisal31 \n PN/01067457665"
+            android:text="اسلام فيصل\n \n  FB/eslamfaisal31 \n PN/+201067457665"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
 
@@ -60,7 +53,7 @@
             android:layout_margin="4dp"
             android:layout_weight="1"
             android:gravity="center|top"
-            android:text="احمد شحاتة\n \n  FB/ahmed.shehatah.967 \n PN/01093766715"
+            android:text="احمد شحاتة\n \n  FB/ahmed.shehatah.967 \n PN/+201093766715"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
     </LinearLayout>
