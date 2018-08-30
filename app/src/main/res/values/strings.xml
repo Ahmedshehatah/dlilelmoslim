@@ -8,6 +8,11 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
+
+    <!-- ================================ start app strings =====================================      -->
+
+    <string name="chare">fd</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello  fragment</string>
 </resources>
