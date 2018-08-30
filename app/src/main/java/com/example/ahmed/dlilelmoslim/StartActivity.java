@@ -94,7 +94,8 @@ public class StartActivity extends AppCompatActivity
         Intent shareIntent = new Intent(Intent.ACTION_SEND);
         shareIntent.setType("text/plain");
         shareIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "دليل المسلم");
-        shareIntent.putExtra(android.content.Intent.EXTRA_TEXT, "https://play.google.com/store/apps/details?id=com.example.ahmed.dlilelmoslim");
+        shareIntent.putExtra(android.content.Intent.EXTRA_TEXT, "دليل المسلم هو تطبيق ديني يجمع الأذكار والأدعية التي يحتاجها المسلم في حياته اليومية" +
+                "https://play.google.com/store/apps/details?id=com.example.ahmed.dlilelmoslim");
         startActivity(Intent.createChooser(shareIntent, "Share"));
     }
 
