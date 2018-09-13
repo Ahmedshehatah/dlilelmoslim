@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="دليل المسلم \n \n هو تطبيق اسلامي وصدقة جاريه لمن ساهم في نشر التطبيق \n ولمن أراد دعم البرنامج مادياً فليتوصل معنا على الجهات الاتية"
+        android:text="دليل المسلم \n \n هو تطبيق اسلامي وصدقة جاريه لمن ساهم في نشر التطبيق "
         android:textColor="@android:color/black"
         android:textSize="20sp"
         android:layout_marginBottom="30dp"

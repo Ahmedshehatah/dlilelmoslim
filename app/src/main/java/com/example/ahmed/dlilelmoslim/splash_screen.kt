@@ -9,12 +9,12 @@ import java.sql.Time
 import java.util.*
 
 class splash_screen : AppCompatActivity() {
-    var timeout = 1400L
+    var timeout = 1500L
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
         Handler().postDelayed({
-            var int = Intent(this,MainActivity::class.java)
+            var int = Intent(this,StartActivity::class.java)
             startActivity(int)
             finish()
         },timeout)
